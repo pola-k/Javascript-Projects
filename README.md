@@ -76,6 +76,8 @@ Here’s a brief overview of the 15 projects included in this repository:
    ```
 
 3. Open the `index.html` file for each project in your browser to view the application.
+   
+4. For API calls add your own API Key.  
 
 ---
 
