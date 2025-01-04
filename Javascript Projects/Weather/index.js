@@ -7,7 +7,7 @@ const humidity = document.getElementById("humidity")
 const wind_speed = document.getElementById("wind_speed")
 const description = document.getElementById("description")
 
-const API_KEY = "372871ea9bdef970b2a86e19dd9e40be"
+const API_KEY = ""
 
 getWeatherData("Lahore")  
 
