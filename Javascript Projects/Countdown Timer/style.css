@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 auto;
+    width: 30%;
+    height: 60%;
+    background-color: black;
+    color: white;
+}
+
+.btn
+{
+    background: transparent;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 0.15rem solid gray;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.card label
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#target_date
+{
+    padding: 0.25rem 0.5rem;
+    border-radius: 1.25rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.timer
+{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bg_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    gap: 4rem;
+}
+
+.information
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.days, .hours, .minutes, .seconds
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white
+}
+
+.days h1, .hours h1, .minutes h1, .seconds h1
+{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.days h4, .hours h4, .minutes h4, .seconds h4
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <img src="images/burger-logo-icon_567288-500-removebg-preview.png" alt="Logo">
+            <h1>FastBite</h1>
+        </div>
+        <h2>Menu</h2>
+        <div class="input_section">
+            <input type="text" name="task" id="input_box" placeholder="Enter Food Item">
+            <button type="submit" class="submit_btn">
+                <svg id="search_btn" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+            </button>
+        </div>
+        <div class="buttons">
+            <button type="submit" class="filter_btn selected">All</button>
+            <button type="submit" class="filter_btn">Burgers</button>
+            <button type="submit" class="filter_btn">Fries</button>
+            <button type="submit" class="filter_btn">Shakes</button>
+        </div>
+        <h2 id="burger_heading" class="food_headings" >Burgers</h2>
+        <div class="food_items" id="burgers">
+            <div class="food">
+                <img src="images/loes-klinker-MLDLPO3DysE-unsplash.jpg" alt="BBQ Rasher Image">
+                <div class="text_content">
+                    <h4 id="name">BBQ Rasher</h4>
+                    <p id="description">Savor the smoky delight of our BBQ Rasher Burger! Sink your teeth into a juicy beef patty layered with crispy bacon, rich BBQ sauce, and a drizzle of our chef's special sauce for a flavor-packed punch. Topped with sweet caramelized onions and nestled in a toasted bun, this burger is a perfect balance of bold and savory goodness. A must-try for BBQ lovers!</p>
+                </div>
+            </div>
+            <div class="food">
+                <img src="images/kasper-urdal-o49elKbjPZI-unsplash.jpg" alt="Cheeseburger Image">
+                <div class="text_content">
+                    <h4 id="name">American Cheeseburger</h4>
+                    <p id="description">Classic and timeless, our American Cheeseburger is a true crowd-pleaser. Featuring a perfectly grilled beef patty topped with melted American cheese, crisp lettuce, juicy tomatoes, and crunchy pickles, all stacked between a soft, toasted bun. Finished with a dollop of ketchup and mustard for that iconic taste, this burger is simplicity done right!</p>
+                </div>
+            </div>
+            <div class="food">
+                <img src="images/abhishek-hajare-1CYYWTTLhwU-unsplash.jpg" alt="Chicken Burger Image">
+                <div class="text_content">
+                    <h4 id="name">Chicken Burger</h4>
+                    <p id="description">Experience crispy perfection with our Classic Chicken Burger! A golden, crunchy chicken fillet takes center stage, paired with fresh lettuce, ripe tomatoes, and creamy mayo. All tucked into a soft, toasted bun, this burger delivers a satisfying bite of tender, juicy chicken goodness in every mouthful.</p>
+                </div>
+            </div>
+            <div class="food">
+                <img src="images/Crunch_Burger.jpg" alt="Cheesy Crunch Burger Image">
+                <div class="text_content">
+                    <h4 id="name">Cheesy Crunch Burger</h4>
+                    <p id="description">Get ready to crunch and melt with our Cheesy Crunch Burger! Featuring a rich, golden cheese patty perfectly complemented by crispy onion rings, this burger is a flavor-packed delight. Nestled in a toasted bun and topped with fresh lettuce and a dollop of our signature sauce, it’s a cheesy, crispy masterpiece you won’t want to miss!</p>
+                </div>
+            </div>
+        </div>
+        <h2 id="fries_heading" class="food_headings">Fries</h2>
+        <div class="food_items" id="fries">
+            <div class="food">
+                <img src="images/simple-french-fries.jpg" alt="Simple French Fries Image">
+                <div class="text_content">
+                    <h4 id="name">Plain French Fries</h4>
+                    <p id="description">Crisp on the outside, tender on the inside, our French fries are cut to perfection and fried to a satisfying crunch. Lightly seasoned to enhance their natural flavor, they’re the perfect sidekick to any meal or a tasty snack on their own. Served piping hot and ready to enjoy!</p>
+                </div>
+            </div>
+            <div class="food">
+                <img src="images/loaded-french-fries.jpg" alt="Loaded French Fries Image">
+                <div class="text_content">
+                    <h4 id="name">Loaded French Fries</h4>
+                    <p id="description">Take your fries to the next level with our Loaded French Fries! A generous serving of golden, crispy fries topped with melted cheese, crispy bacon bits, and a drizzle of tangy ranch or spicy chipotle sauce. Garnished with fresh scallions for the perfect balance of flavor and crunch, these fries are a hearty treat that's impossible to resist. Perfect for sharing—or not!</p>
+                </div>
+            </div>
+            <div class="food">
+                <img src="images/cheese-fries.jpg" alt="Cheese French Fries Image">
+                <div class="text_content">
+                    <h4 id="name">Cheese French Fries</h4>
+                    <p id="description">Golden, crispy fries smothered in rich, melted cheese for the ultimate indulgence. Every bite is a savory delight, with gooey, creamy cheese coating perfectly seasoned fries. Whether as a side or a snack, these Cheese Fries are comfort food at its finest!</p>
+                </div>
+            </div>
+        </div>
+        <h2 id="shakes_heading" class="food_headings">Shakes</h2>
+        <div class="food_items" id="shakes">
+            <div class="food">
+                <img src="images/cookie-overloaded.jpg" alt="Cookie Overloaded Shake Image">
+                <div class="text_content">
+                    <h4 id="name">Cookie Overloaded Shake</h4>
+                    <p id="description">Indulge in the ultimate dessert experience with our Cookie Overloaded Shake! This creamy, thick shake is blended with rich vanilla ice cream and crumbled chocolate cookies, then topped with whipped cream, a drizzle of chocolate syrup, and extra cookie crumbles for the perfect finishing touch. Every sip is a heavenly mix of sweetness and crunch—because there’s no such thing as too many cookies!</p>
+                </div>
+            </div>
+            <div class="food">
+                <img src="images/lotus-shake.jpg" alt="Lotus Shake Image">
+                <div class="text_content">
+                    <h4 id="name">Lotus Shake</h4>
+                    <p id="description">Dive into pure indulgence with our Lotus Shake! A creamy blend of velvety vanilla ice cream and the rich, caramelized goodness of Lotus Biscoff cookies, this shake is a dream in every sip. Topped with whipped cream, a drizzle of Biscoff spread, and crumbled cookies for that extra crunch, it’s the ultimate treat for dessert lovers. Decadent, delightful, and downright irresistible!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

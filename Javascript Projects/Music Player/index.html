@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5f8fb116f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music_player">
+            <nav>
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="media/artworks-xG0kidAjcMyX2PsG-6uET7Q-t1080x1080.jpg" alt="song_img" class="song_img" id="image">
+            <h1 class="song_title" id="title">Go!</h1>
+            <p class="artist_name" id="name">NEFFEX</p>
+            <audio class="song" id="song">
+                <source src="media/Go! - NEFFEX.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" id="progress" value="0">
+            <div class="controls">
+                <div class="back_btn" id="back_btn">
+                    <i class="fa-solid fa-backward"></i>
+                </div>
+                <div class="play_btn" id="play_btn">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <div class="next_btn" id="next_btn">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

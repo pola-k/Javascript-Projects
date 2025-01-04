@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: lightskyblue;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 340px;
+    background: white;
+    gap: 1rem;
+}
+
+.input_box
+{
+    display: flex;
+    gap: 0;
+    margin: 0 auto;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.input_area
+{
+    padding: 0.5rem 0.5rem;
+    width: 250px;
+    border: 3px solid gray;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.fa-solid
+{
+    position: absolute;
+    top: 0.7rem;
+    left: 14rem;
+    cursor: pointer;
+}
+
+.text
+{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+
+.list
+{
+    font-size: 0.8rem;
+    margin-left: 2.5rem;
+    line-height: 1.5rem;
+    font-weight: 600;   
+}
+
+.list li::marker
+{
+    font-size: 1.25rem;
+}
+
+.submit_btn
+{
+    display: none;
+    width: fit-content;
+    align-self: flex-end;
+    border: none;
+    background: rgb(57, 148, 57);
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    user-select: none;
+}
+
+.container 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+
+.card 
+{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    margin: 1rem 0.5rem;
+    min-width: 600px;
+    min-height: 500px;
+    width: fit-content;
+    height: 650px;
+    background-color: rgb(0, 0, 0);
+    color: #FFE53B;
+    position: relative;
+}
+
+.header
+{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    z-index: 10;
+}
+
+.header h2
+{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.header svg
+{
+    fill: #FFE53B;
+}
+
+.input_section
+{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: sticky;
+    top: 4rem;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    z-index: 10;
+}
+
+#input_box
+{
+    padding: 1rem 1.5rem;
+    width: 80%;
+    font-size: 1rem;
+    background-color: #FF2525;
+    border: 3px solid #a32020;
+    border-right: none;
+    border-radius: 0.5rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: #FFE53B;
+}
+
+#input_box::placeholder
+{
+    color: #FFE53B;
+    font-weight: 400;
+}
+
+.submit_btn
+{
+    background-color: #FF2525;
+    border: 3px solid #a32020;
+    border-left: none;
+    padding: 0.83rem 1.5rem;
+    border-radius: 0.5rem; 
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.submit_btn svg
+{
+    fill: #FFE53B;
+    cursor: pointer;
+}
+
+#input_box:focus
+{
+    outline: none;
+}
+
+.tasks
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;  
+    margin-left: 1.25rem; 
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-top: 1rem;
+    background-color: rgb(20, 20, 20);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.task
+{
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    padding: 1rem 1.25rem;
+    height: fit-content;
+    background-color: rgb(54, 47, 47);
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+}
+
+.show_content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.task:hover
+{
+    border: 3px solid #FFE53B;
+    cursor: pointer;
+}
+
+#progress
+{
+    display: none;
+}
+
+#progress.visible
+{
+    display: block;
+}
+
+.tasks::-webkit-scrollbar 
+{
+    width: 12px;
+    background: rgb(0, 0, 0);
+}
+
+.tasks::-webkit-scrollbar-thumb 
+{
+    background-color: #FFE53B;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.tasks::-webkit-scrollbar-track 
+{
+    background: rgb(0, 0, 0);
+}

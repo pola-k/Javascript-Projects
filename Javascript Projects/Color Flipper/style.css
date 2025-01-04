@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.nav_center
+{
+    margin: 1rem;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    background-color: white;
+}
+
+.nav_right ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3rem;
+}
+
+.nav_right ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+.color_info
+{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+}
+
+.btn
+{
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 0.1rem solid black;
+}
+
+.btn:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.text
+{
+    font-size: 1.85rem;
+    color: rgb(59, 141, 234);
+    font-weight: 600;
+}
+
+.options
+{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
+
+.center 
+{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+#color
+{
+    color: rgb(59, 141, 234);
+}
+
+#Simple
+{
+    color: rgb(59, 141, 234);   
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="card" id="card">
+            <label for="target_date">Enter Date and Time</label>
+            <input type="datetime-local" name="target_date" id="target_date">
+            <button type="submit" id="submit_btn" class="btn">Submit</button>
+        </div>
+    </div>
+    <div class="timer" id="timer">
+        <audio id="tick_sound" src="071714_loopable-ticking-clock-87164.mp3"></audio>
+        <div class="information">
+            <div class="days">
+                <h1 id="days">00</h1>
+                <h4>Days</h4>
+            </div>
+            <div class="hours">
+                <h1 id="hours">00</h1>
+                <h4>Hours</h4>
+            </div>
+            <div class="minutes">
+                <h1 id="minutes">00</h1>
+                <h4>Minutes</h4>
+            </div>
+            <div class="seconds">
+                <h1 id="seconds">00</h1>
+                <h4>Seconds</h4>
+            </div>
+        </div>
+        <button type="submit" id="reset_btn" class="btn">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
